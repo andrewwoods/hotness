@@ -56,13 +56,13 @@ hi Search         ctermfg=0    ctermbg=150  cterm=NONE
 " MISTAKES AND ERRORS
 "
 hi Debug          ctermfg=1    ctermbg=NONE cterm=NONE
-hi Error          ctermfg=248  ctermbg=88   cterm=NONE
-hi ErrorMsg       ctermfg=248  ctermbg=88   cterm=NONE
+hi Error          ctermfg=161  ctermbg=116  cterm=NONE
+hi ErrorMsg       ctermfg=161  ctermbg=116  cterm=NONE
 hi SpellBad       ctermfg=189  ctermbg=235  cterm=underline
 hi SpellRare      ctermfg=189  ctermbg=235  cterm=underline
 hi SpellCap       ctermfg=189  ctermbg=235  cterm=underline
 hi SpellLocal     ctermfg=189  ctermbg=235  cterm=underline
-hi WarningMsg     ctermfg=248  ctermbg=88   cterm=NONE
+hi WarningMsg     ctermfg=161  ctermbg=223  cterm=NONE
 
 "-------------------------------------------------------------------------------
 " CODING SYNTAX 
@@ -75,7 +75,7 @@ hi Define         ctermfg=150  ctermbg=NONE cterm=NONE
 hi Delimiter      ctermfg=205  ctermbg=NONE cterm=NONE
 hi Exception      ctermfg=1    ctermbg=NONE cterm=bold
 hi Function       ctermfg=150  ctermbg=NONE cterm=bold
-hi Identifier     ctermfg=208  ctermbg=NONE cterm=NONE
+hi Identifier     ctermfg=116  ctermbg=NONE cterm=NONE
 hi Include        ctermfg=206  ctermbg=NONE cterm=NONE
 hi Keyword        ctermfg=205  ctermbg=NONE cterm=bold
 hi Label          ctermfg=205  ctermbg=NONE cterm=bold
@@ -96,9 +96,9 @@ hi Underlined     ctermfg=189  ctermbg=235  cterm=underline
 hi Character      ctermfg=248  ctermbg=NONE cterm=NONE
 hi Boolean        ctermfg=248  ctermbg=NONE cterm=NONE
 hi Constant       ctermfg=248  ctermbg=NONE cterm=NONE
-hi Float          ctermfg=248  ctermbg=NONE cterm=NONE
+hi Float          ctermfg=223  ctermbg=NONE cterm=NONE
 hi Number         ctermfg=223  ctermbg=NONE cterm=NONE
-hi Operator       ctermfg=202  ctermbg=NONE cterm=bold
+hi Operator       ctermfg=116   ctermbg=NONE cterm=bold
 hi String         ctermfg=223  ctermbg=NONE cterm=NONE
 
 
@@ -123,7 +123,7 @@ hi PMenuSel       ctermfg=235  ctermbg=1    cterm=NONE
 hi PMenuThumb     ctermfg=NONE ctermbg=248  cterm=NONE
 hi Repeat         ctermfg=1    ctermbg=NONE cterm=bold
 hi SignColumn     ctermfg=235  ctermbg=60   cterm=NONE
-hi Special        ctermfg=1    ctermbg=NONE cterm=NONE
+hi Special        ctermfg=221  ctermbg=NONE cterm=NONE
 hi SpecialComment ctermfg=1    ctermbg=NONE cterm=NONE
 hi SpecialKey     ctermfg=66   ctermbg=NONE cterm=NONE
 hi StorageClass   ctermfg=161  ctermbg=NONE cterm=bold
