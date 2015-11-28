@@ -24,21 +24,21 @@ endif
 "     0  #000000   black
 "     1            red
 "    15            bright white
-"    60            light gray
-"    66            medium gray
-"   116            light blue
-"   139            purple
-"   150            light green
-"   161            dark pink
-"   189            light purple
-"   205            hot pink
-"   221            gold orange
-"   222            light orange
-"   223            light peach
-"   235            dark gray
-"   239            another dark gray
-"   248            another light gray
-"   254            bright white
+"    60  #5f5f87   dark purple
+"    66  #5f8787   turquoise
+"   116  #87d7d7   light turquoise
+"   139  #af87af   purple
+"   150  #afd787   light green
+"   161  #d7005f   dark pink
+"   189  #d7d7ff   light purple
+"   205  #ff5faf   hot pink
+"   221  #ffd75f   goldenrod
+"   222  #ffd787   light goldenrod
+"   223  #ffd7af   navajo white
+"   235  #262626   gray 15
+"   239  #4e4e4e   gray 30
+"   248  #a8a8a8   gray 66
+"   254  #e4e4e4   gray 89
 
 "-------------------------------------------------------------------------------
 " GENERAL 
