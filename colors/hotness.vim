@@ -45,10 +45,10 @@ endif
 "
 hi Normal         ctermfg=254  ctermbg=235  cterm=NONE
 hi Cursor         ctermfg=235  ctermbg=15   cterm=NONE
-hi CursorColumn   ctermfg=NONE ctermbg=245  cterm=NONE
+hi CursorColumn   ctermfg=235  ctermbg=254  cterm=NONE
 hi CursorLine     ctermfg=255  ctermbg=205  cterm=NONE
 hi LineNr         ctermfg=139  ctermbg=NONE cterm=NONE
-hi StatusLineNC   ctermfg=189  ctermbg=139  cterm=bold
+hi StatusLineNC   ctermfg=15   ctermbg=60   cterm=bold
 hi StatusLine     ctermfg=239  ctermbg=223  cterm=bold
 hi Search         ctermfg=0    ctermbg=150  cterm=NONE
 
@@ -98,7 +98,7 @@ hi Boolean        ctermfg=248  ctermbg=NONE cterm=NONE
 hi Constant       ctermfg=248  ctermbg=NONE cterm=NONE
 hi Float          ctermfg=223  ctermbg=NONE cterm=NONE
 hi Number         ctermfg=223  ctermbg=NONE cterm=NONE
-hi Operator       ctermfg=116   ctermbg=NONE cterm=bold
+hi Operator       ctermfg=116  ctermbg=NONE cterm=bold
 hi String         ctermfg=223  ctermbg=NONE cterm=NONE
 
 
@@ -111,30 +111,30 @@ hi DiffDelete     ctermfg=235  ctermbg=161  cterm=NONE
 hi DiffText       ctermfg=255  ctermbg=NONE cterm=NONE
 hi Directory      ctermfg=60   ctermbg=NONE cterm=bold
 hi FoldColumn     ctermfg=235  ctermbg=248  cterm=NONE
-hi Folded         ctermfg=235  ctermbg=248  cterm=NONE
+hi Folded         ctermfg=235  ctermbg=116  cterm=NONE
 hi IncSearch      ctermfg=255  ctermbg=150  cterm=NONE
 hi MatchParen     ctermfg=223  ctermbg=NONE cterm=bold
 hi ModeMsg        ctermfg=15   ctermbg=235  cterm=bold
 hi MoreMsg        ctermfg=223  ctermbg=NONE cterm=bold
 hi NonText        ctermfg=66   ctermbg=NONE cterm=NONE
-hi PMenu          ctermfg=235  ctermbg=66   cterm=NONE
+hi PMenu          ctermfg=15   ctermbg=60   cterm=NONE
 hi PMenuSbar      ctermfg=NONE ctermbg=102  cterm=NONE
-hi PMenuSel       ctermfg=235  ctermbg=1    cterm=NONE
+hi PMenuSel       ctermfg=235  ctermbg=150  cterm=NONE
 hi PMenuThumb     ctermfg=NONE ctermbg=248  cterm=NONE
 hi Repeat         ctermfg=1    ctermbg=NONE cterm=bold
-hi SignColumn     ctermfg=235  ctermbg=60   cterm=NONE
+hi SignColumn     ctermfg=15   ctermbg=60   cterm=NONE
 hi Special        ctermfg=221  ctermbg=NONE cterm=NONE
 hi SpecialComment ctermfg=1    ctermbg=NONE cterm=NONE
 hi SpecialKey     ctermfg=66   ctermbg=NONE cterm=NONE
 hi StorageClass   ctermfg=161  ctermbg=NONE cterm=bold
-hi TabLine        ctermfg=235  ctermbg=66   cterm=bold
-hi TabLineFill    ctermfg=235  ctermbg=66   cterm=bold
-hi TabLineSel     ctermfg=235  ctermbg=1    cterm=bold
+hi TabLine        ctermfg=235  ctermbg=116  cterm=bold
+hi TabLineFill    ctermfg=235  ctermbg=116  cterm=bold
+hi TabLineSel     ctermfg=15   ctermbg=150  cterm=bold
 hi Title          ctermfg=189  ctermbg=235  cterm=bold
 hi Todo           ctermfg=235  ctermbg=150  cterm=NONE
-hi VertSplit      ctermfg=235  ctermbg=66   cterm=bold
+hi VertSplit      ctermfg=235  ctermbg=116   cterm=bold
 hi Visual         ctermfg=235  ctermbg=189  cterm=NONE
 hi VisualNOS      ctermfg=235  ctermbg=189  cterm=underline
 hi WildMenu       ctermfg=NONE ctermbg=248  cterm=NONE
-hi cursorim       ctermfg=235  ctermbg=60   cterm=NONE
+hi cursorim       ctermfg=15   ctermbg=60   cterm=NONE
 
