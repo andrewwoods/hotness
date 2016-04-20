@@ -48,7 +48,7 @@ hi Cursor         ctermfg=235  ctermbg=15   cterm=NONE
 hi CursorColumn   ctermfg=235  ctermbg=254  cterm=NONE
 hi CursorLine     ctermfg=255  ctermbg=205  cterm=NONE
 hi LineNr         ctermfg=139  ctermbg=NONE cterm=NONE
-hi StatusLineNC   ctermfg=15   ctermbg=60   cterm=bold
+hi StatusLineNC   ctermfg=235  ctermbg=189   cterm=bold
 hi StatusLine     ctermfg=239  ctermbg=223  cterm=bold
 hi Search         ctermfg=0    ctermbg=150  cterm=NONE
 
@@ -56,8 +56,8 @@ hi Search         ctermfg=0    ctermbg=150  cterm=NONE
 " MISTAKES AND ERRORS
 "
 hi Debug          ctermfg=1    ctermbg=NONE cterm=NONE
-hi Error          ctermfg=161  ctermbg=116  cterm=NONE
-hi ErrorMsg       ctermfg=161  ctermbg=116  cterm=NONE
+hi Error          ctermfg=235  ctermbg=161  cterm=NONE
+hi ErrorMsg       ctermfg=235  ctermbg=161  cterm=NONE
 hi SpellBad       ctermfg=189  ctermbg=235  cterm=underline
 hi SpellRare      ctermfg=189  ctermbg=235  cterm=underline
 hi SpellCap       ctermfg=189  ctermbg=235  cterm=underline
@@ -117,12 +117,12 @@ hi MatchParen     ctermfg=223  ctermbg=NONE cterm=bold
 hi ModeMsg        ctermfg=15   ctermbg=235  cterm=bold
 hi MoreMsg        ctermfg=223  ctermbg=NONE cterm=bold
 hi NonText        ctermfg=66   ctermbg=NONE cterm=NONE
-hi PMenu          ctermfg=15   ctermbg=60   cterm=NONE
+hi PMenu          ctermfg=15   ctermbg=222   cterm=NONE
 hi PMenuSbar      ctermfg=NONE ctermbg=102  cterm=NONE
 hi PMenuSel       ctermfg=235  ctermbg=150  cterm=NONE
 hi PMenuThumb     ctermfg=NONE ctermbg=248  cterm=NONE
 hi Repeat         ctermfg=1    ctermbg=NONE cterm=bold
-hi SignColumn     ctermfg=15   ctermbg=60   cterm=NONE
+hi SignColumn     ctermfg=238  ctermbg=116  cterm=NONE
 hi Special        ctermfg=221  ctermbg=NONE cterm=NONE
 hi SpecialComment ctermfg=1    ctermbg=NONE cterm=NONE
 hi SpecialKey     ctermfg=66   ctermbg=NONE cterm=NONE
