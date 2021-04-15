@@ -44,7 +44,7 @@ endif
 " GENERAL 
 "-------------------------------------------------------------------------------
 "
-hi Normal         ctermfg=254  ctermbg=235  cterm=NONE
+hi Normal         ctermfg=254  ctermbg=233  cterm=NONE
 hi Cursor         ctermfg=60   ctermbg=161  cterm=NONE
 hi CursorColumn   ctermfg=255  ctermbg=60   cterm=NONE
 hi CursorLine     ctermfg=255  ctermbg=60   cterm=NONE
