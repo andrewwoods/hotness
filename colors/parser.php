@@ -12,6 +12,28 @@ function drop_leading_zeroes($value)
     return ltrim($value, '0');;
 }
 
+/*
+ * The indentation on this function is non-standard
+ * so the output will look correct.
+ */
+function output_array(array $data)
+{
+?>
+$data = [];
+<?php foreach ($data as $key => $value) : ?>
+$data[<?php echo $key ?>] = [
+    'name' => "<?php echo $value['name']; ?>",
+    'color_id' => "<?php echo $value['color_id']; ?>",
+    'name' => "<?php echo $value['name']; ?>",
+    'term_color' => <?php echo $value['term_color']; ?>,
+    'hex_color' => "<?php echo $value['hex_color']; ?>",
+    'red' => <?php echo $value['red']; ?>,
+    'green' => <?php echo $value['green']; ?>,
+    'blue' => <?php echo $value['blue']; ?>,
+];
+<?php endforeach;
+}
+
 #
 # Main
 #
@@ -55,4 +77,4 @@ fclose($fh);
 
 # @todo Replace this with a function to display
 #       the content as a valid PHP array in a file.
-print_r($data);
+output_array($data);
